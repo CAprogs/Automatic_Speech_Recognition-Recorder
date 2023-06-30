@@ -4,6 +4,7 @@
 # The model used is the "Google Speech Recognition".
 # Internet access is required to use this software.
 # Audio files are deleted after every session.
+# You should add an empty 'User_audio' File in the same directory as this file.
 # 3 Languages ​​are available: French, English, Arabic (Morocco) [ https://cloud.google.com/speech-to-text/docs/speech-to-text-supported-languages?hl=en ]
 # Credits: @Tkinter Designer by ParthJadhav
 # ------------------------------------------------------------------------------------------------------------
