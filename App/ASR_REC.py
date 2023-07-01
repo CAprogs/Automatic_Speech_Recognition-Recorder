@@ -17,7 +17,8 @@ from tkinter import *
 from tkinter import messagebox
 import speech_recognition as sr
 import pygame
-import os 
+import os
+import shutil
 
 # Obtenir le chemin absolu du répertoire contenant votre script
 script_directory = Path(os.path.dirname(os.path.realpath(__file__)))
@@ -27,6 +28,9 @@ assets_directory = script_directory / "frame0"
 
 # chemin relatif vers le dossier "User_audio"
 folder_path = script_directory / "User_audio"
+
+# Créer le dossier
+os.makedirs(folder_path)
 
 i = 0  # Gestion du nombre d'enregistrements
 record_duration = 10 # Durée d'enregistrement en secondes
@@ -51,26 +55,20 @@ def relative_to_assets(path: str) -> Path:
     return assets_directory / Path(path)
 
 # Supprimer les fichiers à la fermeture de l'application
-def delete_files_in_folder(folder_path):
+def delete_folder(folder_path):
     global Files_deleted_state
-    for filename in os.listdir(folder_path):
-        file_path = os.path.join(folder_path, filename)
-        if os.path.isfile(file_path):
-            os.remove(file_path)
-            Files_deleted_state = True
-        else:
-            Files_deleted_state = False
+    # Supprimer le dossier complet
+    shutil.rmtree(folder_path)
+    Files_deleted_state = True
 
 # Fonction associée à la fermeture de l'application
 def on_closing():
     global folder_path
     global Files_deleted_state
-    delete_files_in_folder(folder_path)
+    delete_folder(folder_path)
     if Files_deleted_state:
         # Affichage d'un message de confirmation
         messagebox.showinfo("Fermeture", "Les fichiers audio ont été supprimés.")
-    else:
-        messagebox.showinfo("Fermeture", "Aucun Fichier audio supprimé")
     # Fermeture de la fenêtre tkinter
     window.destroy()
 
