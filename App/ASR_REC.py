@@ -4,7 +4,6 @@
 # The model used is the "Google Speech Recognition".
 # Internet access is required to use this software.
 # Audio files are deleted after every session.
-# You should add an empty 'User_audio' File in the same directory as this file.
 # 3 Languages ​​are available: French, English, Arabic (Morocco) [ https://cloud.google.com/speech-to-text/docs/speech-to-text-supported-languages?hl=en ]
 # Credits: @Tkinter Designer by ParthJadhav
 # ------------------------------------------------------------------------------------------------------------
@@ -19,11 +18,15 @@ from tkinter import messagebox
 import speech_recognition as sr
 import pygame
 import os 
-from os import path
 
-OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"./assets/frame0")
-folder_path = path.join(path.dirname(path.realpath(__file__)), "User_audio")
+# Obtenir le chemin absolu du répertoire contenant votre script
+script_directory = Path(os.path.dirname(os.path.realpath(__file__)))
+
+# chemin relatif vers le dossier "assets/frame0"
+assets_directory = script_directory / "assets/frame0"
+
+# chemin relatif vers le dossier "User_audio"
+folder_path = script_directory / "User_audio"
 
 i = 0  # Gestion du nombre d'enregistrements
 record_duration = 10 # Durée d'enregistrement en secondes
@@ -45,7 +48,7 @@ pygame.init()
 ###################################################################### Fonctions
 # Importation des éléments graphique
 def relative_to_assets(path: str) -> Path:
-    return ASSETS_PATH / Path(path)
+    return assets_directory / Path(path)
 
 # Supprimer les fichiers à la fermeture de l'application
 def delete_files_in_folder(folder_path):
@@ -149,18 +152,20 @@ def record_voice():
     global i
     global file_path_global
     global record_duration
+    global folder_path
 
     duration = record_duration  # Durée de l'enregistrement en secondes
     fs = 44100  # Fréquence d'échantillonnage
 
-    file_path = path.join(path.dirname(path.realpath(__file__)), f"User_audio/{i}.wav")
+    audio_file_path = folder_path / f"{i}.wav"
+    audio_file_path = str(audio_file_path)
     recording = sd.rec(int(duration * fs), samplerate=fs, channels=1)
-    file_path_global = file_path
+    file_path_global = audio_file_path
     sd.wait() # Attendre la fin de l'enregistrement
-    sf.write(file_path, recording, fs)
+    sf.write(audio_file_path, recording, fs)
 
-    canvas.itemconfig(Path_listen, text=f"{file_path}")
-    traduction = SpeechToText(file_path)
+    canvas.itemconfig(Path_listen, text=f"{audio_file_path}")
+    traduction = SpeechToText(audio_file_path)
     canvas.itemconfig(traduction_area, text=f"{traduction}")
     i += 1
 
