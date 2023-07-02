@@ -20,7 +20,7 @@ import pygame
 import os
 import shutil
 
-# Obtenir le chemin absolu du répertoire contenant votre script
+# Obtenir le chemin absolu du répertoire contenant le script
 script_directory = Path(os.path.dirname(os.path.realpath(__file__)))
 
 # chemin relatif vers le dossier "assets/frame0"
@@ -161,8 +161,8 @@ def record_voice():
     file_path_global = audio_file_path
     sd.wait() # Attendre la fin de l'enregistrement
     sf.write(audio_file_path, recording, fs)
-
-    canvas.itemconfig(Path_listen, text=f"{audio_file_path}")
+    
+    canvas.itemconfig(Path_listen, text=f"{os.path.basename(os.path.dirname(audio_file_path))+'/'+os.path.basename(audio_file_path)}")
     traduction = SpeechToText(audio_file_path)
     canvas.itemconfig(traduction_area, text=f"{traduction}")
     i += 1
@@ -174,8 +174,7 @@ def import_audio():
     if file_path:
         traduction = SpeechToText(file_path)
         canvas.itemconfig(traduction_area, text=f"{traduction}")
-        #new_path = file_path.replace("/", "//")
-        canvas.itemconfig(Path_listen, text=f"{file_path}")
+        canvas.itemconfig(Path_listen, text=f"{os.path.basename(os.path.dirname(file_path))+'/'+os.path.basename(file_path)}")
         file_path_global = file_path
     else:
         pass
