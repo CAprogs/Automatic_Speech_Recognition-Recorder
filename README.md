@@ -1,5 +1,4 @@
-# ASR_REC.v01 @2023 by CAprogs
-
+# ASR_REC.v01
 
 Software for Audio Transcription - Speech To Text
 =================================================
