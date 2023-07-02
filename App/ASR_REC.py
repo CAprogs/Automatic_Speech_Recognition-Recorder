@@ -57,6 +57,9 @@ def relative_to_assets(path: str) -> Path:
 # Supprimer les fichiers à la fermeture de l'application
 def delete_folder(folder_path):
     global Files_deleted_state
+    #Fermer tous les processus audio en cours
+    pygame.mixer.music.stop()
+    pygame.quit()
     # Supprimer le dossier complet
     shutil.rmtree(folder_path)
     Files_deleted_state = True
