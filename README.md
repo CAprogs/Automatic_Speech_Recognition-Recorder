@@ -1,6 +1,6 @@
 # ASR_REC.v01 @2023 by CAprogs
 
-=================================================
+
 Software for Audio Transcription - Speech To Text
 =================================================
 
@@ -16,9 +16,8 @@ INSTRUCTIONS [ French ] 🇫🇷
 * L'application prend en charge 3 Langues par défaut : Français, Anglais et Arabe(Maroc).
 
 contactez-moi 📨 : ch.kotto-ekambi@epmistes.net
-Code de l'application disponible ici 📜 : https://github.com/CAprogs/Automatic_Speech_Recognition-Recorder
 
-************************************************************************************************************************************
+***********************************************************************************************************************
 
 INSTRUCTIONS [ English ] 🏴󠁧󠁢󠁥󠁮󠁧󠁿 
 
@@ -32,7 +31,6 @@ INSTRUCTIONS [ English ] 🏴󠁧󠁢󠁥󠁮󠁧󠁿
 * The application supports 3 default languages: French, English, and Arabic (Morocco).
 
 Contact me 📨 : ch.kotto-ekambi@epmistes.net
-App code available here 📜 : https://github.com/CAprogs/Automatic_Speech_Recognition-Recorder
 
 
 
