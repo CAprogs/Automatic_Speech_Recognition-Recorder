@@ -3,7 +3,7 @@
 Software for Audio Transcription - Speech To Text
 =================================================
 
-INSTRUCTIONS [ French ] 🇫🇷
+##INSTRUCTIONS [ French ] 🇫🇷
 
 * L'application requiert une connexion internet. 
 * Cette version de l'application utilise le réseau neuronal "Google Speech Recognition".
@@ -18,7 +18,7 @@ contactez-moi 📨 : ch.kotto-ekambi@epmistes.net
 
 ***********************************************************************************************************************
 
-INSTRUCTIONS [ English ] 🏴󠁧󠁢󠁥󠁮󠁧󠁿 
+##INSTRUCTIONS [ English ] 🏴󠁧󠁢󠁥󠁮󠁧󠁿 
 
 * The application requires an internet connection.
 * This version of the application uses the "Google Speech Recognition" neural network.
