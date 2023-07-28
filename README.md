@@ -2,6 +2,8 @@
 
 Software for Audio Transcription - Speech To Text
 =================================================
+## PreView
+<img width="815" alt="Capture d’écran 2023-07-28 à 16 07 49" src="https://github.com/CAprogs/Automatic_Speech_Recognition-Recorder/assets/104645407/9da7a4f2-dcad-4302-b73f-532a1e4ccd89">
 
 ## INSTRUCTIONS [ French ] 🇫🇷
 
