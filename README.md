@@ -11,11 +11,24 @@
 
 ## Technologies 📲
 
-- Python3
-- tkinter-designer
-- Figma
+- [Python](https://www.python.org/)
+- [Tkinter-Designer](https://github.com/ParthJadhav/Tkinter-Designer/tree/master)
+- [Figma](https://www.figma.com/login)
 
-see the [```requirements```]() file for all the packages used in this project.
+See the [```requirements```]() file for all the packages used in this project.
+
+## Get Started 🧞‍♂️
+
+Download the [latest release](#releases-📤) and launch the app 
+1. Choose a langage
+2. Choose either to _**Record**_ or _**Import**_ your File
+
+🎉 You can **see the translation** on your screen after a few seconds !
+
+3. ( Optional ) You can **play** or **replay** the audio imported or recorded within the app
+
+## App View 👁️
+<img width="400" alt="Capture d’écran 2023-07-28 à 16 07 49" src="https://github.com/CAprogs/Automatic_Speech_Recognition-Recorder/assets/104645407/9da7a4f2-dcad-4302-b73f-532a1e4ccd89">
 
 ## Releases 📤
 
@@ -31,16 +44,7 @@ see the [```requirements```]() file for all the packages used in this project.
 - [x] Translate audio files
 - [x] Play / Replay audio files
 
-## Roadmap 🚧
-
-- [ ] Add models to the software
-- [ ] Add langages
-- [ ] Create the config.json file ( Choose the model to use ; Control the deletion of the files )
-- [ ] Create Docu ( doc file + Demo + Gif + App view )
-- [ ] Update ReadME
-- [ ] Deployment ( Docker , Update .EXE releases )
-
-## Limitations & Support ⚡️
+## Limitations & Supports ⚡️
 
 - Supports 3 default languages: French, English, and Arabic (Morocco).
 - Requires an internet access.
@@ -51,24 +55,20 @@ see the [```requirements```]() file for all the packages used in this project.
 - The recording duration is limited to 10 seconds by default.
 - The "Listen" button allows you to listen to your recording, whether it is imported or recorded within the application.
 
-
 | Audio type | Supported |
 | :-------- | :------- |
 | `.wav` | ✅ |
 | `.mp3` | ✅ |
 
-## Get Started 🧞‍♂️
+## Roadmap 🚧
 
-1. Choose a langage
-2. Choose either to _**Record**_ or _**Import**_ your File
-
-🎉 You can **see the translation** on your screen after a few seconds !
-
-3. ( Optional ) You can **play** or **replay** the audio imported or recorded within the app
-
-## App View 👁️
-<img width="400" alt="Capture d’écran 2023-07-28 à 16 07 49" src="https://github.com/CAprogs/Automatic_Speech_Recognition-Recorder/assets/104645407/9da7a4f2-dcad-4302-b73f-532a1e4ccd89">
-
+- [ ] Add models to the software
+- [ ] Add langages
+- [ ] Create the config.json file ( Choose the model to use ; Control the deletion of the files )
+- [ ] Create Docu ( doc file + Demo + Gif + App view )
+- [ ] Update ReadME
+- [ ] Deployment ( Docker , Update .EXE releases )
+      
 ## Author ✍️
 
 - [@CAprogs](https://github.com/CAprogs)
@@ -81,7 +81,7 @@ See [`contributing.md`]() for ways to get started.
 
 ## License 📝
 
-This project is under the [GNU LICENSE]()
+This project is under the [GNU LICENSE](https://github.com/CAprogs/Automatic_Speech_Recognition-Recorder/blob/main/LICENSE)
 
 ## Donation & Support ❤️
 
