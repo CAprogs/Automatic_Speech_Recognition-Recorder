@@ -12,6 +12,11 @@
         
 </div>
 
+## Translations ( README )
+
+- [**English**]() (EN)
+- [**French**]() (FR)
+
 ## Technologies 📲
 
 - [Python](https://www.python.org/)
