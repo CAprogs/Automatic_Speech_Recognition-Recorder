@@ -85,7 +85,7 @@ Download the [latest release](https://github.com/CAprogs/Automatic_Speech_Recogn
 
 Contributions are always welcome !
 
-See [`contributing.md`]() for ways to get started.
+See [`contributing.md`](https://github.com/CAprogs/Automatic_Speech_Recognition-Recorder/blob/main/docs/EN/Contribute.en.md) for ways to get started.
 
 ## License 📝
 
