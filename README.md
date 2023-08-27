@@ -34,7 +34,7 @@ See the [```requirements```]() file for all the packages used in this project.
 
 ## Get Started 🧞‍♂️
 
-Download the [latest release]() and launch the app 
+Download the [latest release](https://github.com/CAprogs/Automatic_Speech_Recognition-Recorder/tree/main#releases-) and launch the app 
 1. Choose a langage
 2. Choose either to _**Record**_ or _**Import**_ your File
 
