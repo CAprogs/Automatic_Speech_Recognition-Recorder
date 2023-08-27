@@ -34,7 +34,7 @@ See the [```requirements```]() file for all the packages used in this project.
 
 ## Get Started 🧞‍♂️
 
-Download the [latest release](https://github.com/CAprogs/Automatic_Speech_Recognition-Recorder/edit/main/README.md#features-%EF%B8%8F) and launch the app 
+Download the [latest release]() and launch the app 
 1. Choose a langage
 2. Choose either to _**Record**_ or _**Import**_ your File
 
@@ -43,7 +43,7 @@ Download the [latest release](https://github.com/CAprogs/Automatic_Speech_Recogn
 3. ( Optional ) You can **play** or **replay** the audio imported or recorded within the app
 
 ## App View 👁️
-<img width="400" alt="Capture d’écran 2023-07-28 à 16 07 49" src="https://github.com/CAprogs/Automatic_Speech_Recognition-Recorder/assets/104645407/9da7a4f2-dcad-4302-b73f-532a1e4ccd89">
+<img width="500" alt="Capture d’écran 2023-07-28 à 16 07 49" src="https://github.com/CAprogs/Automatic_Speech_Recognition-Recorder/assets/104645407/9da7a4f2-dcad-4302-b73f-532a1e4ccd89">
 
 ## Releases 📤
 
