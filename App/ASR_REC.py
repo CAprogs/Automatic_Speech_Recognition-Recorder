@@ -1,19 +1,33 @@
 # ------------------------------------------------------------------------------------------------------------
+#
+#_____/\\\\\\\\\________/\\\\\\\\\\\______/\\\\\\\\\______________________/\\\\\\\\\______/\\\\\\\\\\\\\\\________/\\\\\\\\\_        
+# ___/\\\\\\\\\\\\\____/\\\/////////\\\__/\\\///////\\\__________________/\\\///////\\\___\/\\\///////////______/\\\////////__       
+#  __/\\\/////////\\\__\//\\\______\///__\/\\\_____\/\\\_________________\/\\\_____\/\\\___\/\\\_______________/\\\/___________      
+#   _\/\\\_______\/\\\___\////\\\_________\/\\\\\\\\\\\/_____/\\\\\\\\\\\_\/\\\\\\\\\\\/____\/\\\\\\\\\\\______/\\\_____________     
+#    _\/\\\\\\\\\\\\\\\______\////\\\______\/\\\//////\\\____\///////////__\/\\\//////\\\____\/\\\///////______\/\\\_____________    
+#     _\/\\\/////////\\\_________\////\\\___\/\\\____\//\\\_________________\/\\\____\//\\\___\/\\\_____________\//\\\____________   
+#      _\/\\\_______\/\\\__/\\\______\//\\\__\/\\\_____\//\\\________________\/\\\_____\//\\\__\/\\\______________\///\\\__________  
+#       _\/\\\_______\/\\\_\///\\\\\\\\\\\/___\/\\\______\//\\\_______________\/\\\______\//\\\_\/\\\\\\\\\\\\\\\____\////\\\\\\\\\_ 
+#        _\///________\///____\///////////_____\///________\///________________\///________\///__\///////////////________\/////////__
+#
+# ------------------------------------------------------------------------------------------------------------
 # Welcome to ASR-REC Speech to text | @ECAM-EPMI 2023 by CAprogs
 # This is an end to end project that aims to use a pretrained neural network for voice recognition (Speech to text).
-# The model used is the "Google Speech Recognition".
+# The model used is the "Google Speech Recognition". / ( more model to come )
 # Internet access is required to use this software.
 # Audio files are deleted after every session.
 # 3 Languages ​​are available: French, English, Arabic (Morocco) [ https://cloud.google.com/speech-to-text/docs/speech-to-text-supported-languages?hl=en ]
 # Credits: @Tkinter Designer by ParthJadhav
 # ------------------------------------------------------------------------------------------------------------
 
+# Update ( create a Json.config file to control the : deletion of the file after every session, model used )
+
 # Importation des bibliothèques
 from pathlib import Path
 from tkinter import filedialog
 import sounddevice as sd
 import soundfile as sf
-from tkinter import *
+from tkinter import Tk,PhotoImage,Button,Canvas,StringVar,OptionMenu
 from tkinter import messagebox
 import speech_recognition as sr
 import pygame
