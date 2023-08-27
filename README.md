@@ -3,7 +3,10 @@
 ![APP_logo](https://github.com/CAprogs/Automatic_Speech_Recognition-Recorder/assets/104645407/e93dd499-e592-416b-beb9-eb256b1e5bd5)
 
 # 
-![GitHub Repo stars](https://img.shields.io/github/stars/CAprogs/Automic_Speech_Recognition-Recorder?color=yellow) ![GitHub](https://img.shields.io/github/license/CAprogs/Automic_Speech_Recognition-Recorder?color=blue) ![GitHub forks](https://img.shields.io/github/forks/CAprogs/Automic_Speech_Recognition-Recorder?color=green) ![GitHub watchers](https://img.shields.io/github/watchers/CAprogs/Automic_Speech_Recognition-Recorder?color=red)
+![GitHub Repo stars](https://img.shields.io/github/stars/CAprogs/Automatic_Speech_Recognition-Recorder?color=blue) 
+![GitHub](https://img.shields.io/github/license/CAprogs/Automatic_Speech_Recognition-Recorder)
+![GitHub forks](https://img.shields.io/github/forks/CAprogs/Automatic_Speech_Recognition-Recorder?color=yellow)
+![GitHub watchers](https://img.shields.io/github/watchers/CAprogs/Automatic_Speech_Recognition-Recorder?color=green)
 
 <br>Software for **Audio Transcription** - **Speech To Text**</br>
         
@@ -17,9 +20,16 @@
 
 See the [```requirements```]() file for all the packages used in this project.
 
+## Features ☄️
+
+- [x] Import audio files
+- [x] Record audio ( in .wav )
+- [x] Translate audio files
+- [x] Play / Replay audio files
+
 ## Get Started 🧞‍♂️
 
-Download the [latest release](#releases-📤) and launch the app 
+Download the [latest release](https://github.com/CAprogs/Automatic_Speech_Recognition-Recorder/edit/main/README.md#features-%EF%B8%8F) and launch the app 
 1. Choose a langage
 2. Choose either to _**Record**_ or _**Import**_ your File
 
@@ -37,12 +47,14 @@ Download the [latest release](#releases-📤) and launch the app
 | [`ASR_REC_Windows`](https://github.com/CAprogs/Automatic_Speech_Recognition-Recorder/releases/download/v1.0.0/ASR_REC_W.zip) | **Windows**  | v1.0.0 |
 | [`ASR_REC_Mac-arm64`](https://github.com/CAprogs/Automatic_Speech_Recognition-Recorder/releases/download/v1.0.1/ASR_REC_M.zip) | **Mac** | v1.0.1  |
 
-## Features ☄️
+## Roadmap 🚧
 
-- [x] Import audio files
-- [x] Record audio ( in .wav )
-- [x] Translate audio files
-- [x] Play / Replay audio files
+- [ ] Add models to the software
+- [ ] Add langages
+- [ ] Create the config.json file ( Choose the model to use ; Control the deletion of the files )
+- [ ] Create Docu ( doc file + Demo + Gif + App view )
+- [ ] Update ReadME
+- [ ] Deployment ( Docker , Update .EXE releases )
 
 ## Limitations & Supports ⚡️
 
@@ -59,15 +71,6 @@ Download the [latest release](#releases-📤) and launch the app
 | :-------- | :------- |
 | `.wav` | ✅ |
 | `.mp3` | ✅ |
-
-## Roadmap 🚧
-
-- [ ] Add models to the software
-- [ ] Add langages
-- [ ] Create the config.json file ( Choose the model to use ; Control the deletion of the files )
-- [ ] Create Docu ( doc file + Demo + Gif + App view )
-- [ ] Update ReadME
-- [ ] Deployment ( Docker , Update .EXE releases )
       
 ## Author ✍️
 
