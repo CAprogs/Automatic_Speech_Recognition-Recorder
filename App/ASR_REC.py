@@ -24,11 +24,9 @@
 
 # Importation des bibliothèques
 from pathlib import Path
-from tkinter import filedialog
+from tkinter import Tk,PhotoImage,Button,Canvas,StringVar,OptionMenu,filedialog,messagebox
 import sounddevice as sd
 import soundfile as sf
-from tkinter import Tk,PhotoImage,Button,Canvas,StringVar,OptionMenu
-from tkinter import messagebox
 import speech_recognition as sr
 import pygame
 import os
