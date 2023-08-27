@@ -15,7 +15,7 @@
 ## Translations ( README )
 
 - [**English**]() (EN)
-- [**French**]() (FR)
+- [**French**](https://github.com/CAprogs/Automatic_Speech_Recognition-Recorder/blob/main/docs/FR/README.fr.md) (FR)
 
 ## Technologies 📲
 
@@ -23,7 +23,7 @@
 - [Tkinter-Designer](https://github.com/ParthJadhav/Tkinter-Designer/tree/master)
 - [Figma](https://www.figma.com/login)
 
-See the [```requirements```]() file for all the packages used in this project.
+See the [```requirements```](https://github.com/CAprogs/Automatic_Speech_Recognition-Recorder/blob/main/requirements.txt) file for all the packages used in this project.
 
 ## Features ☄️
 
