@@ -14,7 +14,7 @@
 
 ## Traductions ( README )
 
-- [**Anglais**]() (EN)
+- [**Anglais**](https://github.com/CAprogs/Automatic_Speech_Recognition-Recorder/blob/main/README.md) (EN)
 - [**Français**](https://github.com/CAprogs/Automatic_Speech_Recognition-Recorder/blob/main/docs/FR/README.fr.md) (FR)
 
 ## Technologies 📲
