@@ -8,7 +8,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/CAprogs/Automatic_Speech_Recognition-Recorder?color=yellow)
 ![GitHub watchers](https://img.shields.io/github/watchers/CAprogs/Automatic_Speech_Recognition-Recorder?color=green)
 
-<br>Software for **Audio Transcription** - **Speech To Text**</br>
+<br>Software for **Audio Transcription** - _Speech To Text_</br>
         
 </div>
 
